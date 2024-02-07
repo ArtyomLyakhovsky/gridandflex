@@ -63,3 +63,64 @@ body {
     grid-row: 3 / 4;
     background-color: rgb(142, 255, 13);
 }
+
+/* <<///////////////////////////////>>> */
+
+
+
+
+
+
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-basis: 15%;
+    min-height: 80px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.flex-item1 {
+    background-color: rgb(124, 71, 115);
+    flex-basis: 32.5%;
+}
+.flex-item2 {
+    background-color: rgb(123, 103, 194);
+    flex-basis: 31.5%;
+    height: 160px;
+}
+.flex-item3 {
+    background-color: rgb(201, 133, 6);
+    flex-basis: 17%;
+    height: 160px;
+}
+.flex-item4 {
+    background-color: rosybrown;
+    flex-basis: 16%;
+}
+.flex-item5 {
+    background-color: rgb(224, 19, 156);
+    margin-top: -80px;
+}
+.flex-item6 {
+    background-color: greenyellow;
+    margin-top: -80px;
+    flex-basis: 14.8%;
+}
+.flex-item7 {
+    background-color: green;
+}
+.flex-item8 {
+    background-color: brown;
+}
+.flex-item9 {
+    background-color: rgb(205, 0, 247);
+}
+.flex-item10 {
+    background-color: blue;
+    margin-top: -80px;
+}
+.flex-item11 {
+    background-color: rgb(142, 255, 13);
+}
